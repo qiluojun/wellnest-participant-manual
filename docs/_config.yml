@@ -1,0 +1,31 @@
+title: WellNest Participant User Manual
+description: Participant-facing user manual for the WellNest Android study app.
+theme: just-the-docs
+
+# For a GitHub Pages project site:
+# https://USERNAME.github.io/wellnest-participant-manual/
+url: ""
+baseurl: "/wellnest-participant-manual"
+
+permalink: pretty
+
+search_enabled: true
+heading_anchors: true
+color_scheme: light
+
+nav_enabled: true
+aux_links:
+  "Need help?":
+    - "mailto:study-support@mcl.iis.u-tokyo.ac.jp"
+
+footer_content: "WellNest study support: <a href=\"mailto:study-support@mcl.iis.u-tokyo.ac.jp\">study-support@mcl.iis.u-tokyo.ac.jp</a>"
+
+plugins:
+  - jekyll-seo-tag
+
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - README.md
+  - vendor/
+
