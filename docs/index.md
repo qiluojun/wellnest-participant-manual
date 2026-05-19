@@ -19,18 +19,18 @@ The study includes:
 
 ## Start here
 
-1. [Install the apps](setup.md)  
+1. [Install the apps]({{ '/setup/' | relative_url }})  
    Install both **WellNest** and **WellNest Health** from the Firebase App Distribution invitation emails.
 
-2. [Grant permissions](permissions.md)  
+2. [Grant permissions]({{ '/permissions/' | relative_url }})  
    Open WellNest and complete the Permission configuration page.
 
-3. [Complete the Pre-Study Survey](surveys.md#pre-study-survey)  
+3. [Complete the Pre-Study Survey]({{ '/surveys/#pre-study-survey' | relative_url }})  
    After setup, tap **Join Study** and complete the Pre-Study Survey.
 
 ## Short on time?
 
-Use the [Quick Checklist](checklist.md) to confirm the most important setup steps and study tasks.
+Use the [Quick Checklist]({{ '/checklist/' | relative_url }}) to confirm the most important setup steps and study tasks.
 
 ## Need help?
 
@@ -38,10 +38,9 @@ Email the research team at [study-support@mcl.iis.u-tokyo.ac.jp](mailto:study-su
 
 ## Pages in this guide
 
-- [Install the apps](setup.md)
-- [Grant permissions](permissions.md)
-- [Surveys](surveys.md)
-- [Settings and app use](settings.md)
-- [Troubleshooting](troubleshooting.md)
-- [Quick Checklist](checklist.md)
-
+- [Install the apps]({{ '/setup/' | relative_url }})
+- [Grant permissions]({{ '/permissions/' | relative_url }})
+- [Surveys]({{ '/surveys/' | relative_url }})
+- [Settings and app use]({{ '/settings/' | relative_url }})
+- [Troubleshooting]({{ '/troubleshooting/' | relative_url }})
+- [Quick Checklist]({{ '/checklist/' | relative_url }})

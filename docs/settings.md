@@ -12,13 +12,13 @@ The Settings and Help areas in WellNest let you adjust reminders, contact the re
 
 The **Settings** screen lets you change default settings such as region and language.
 
-![Screenshot: Settings entry](assets/images/settings-entry.png)
+![Screenshot: Settings entry]({{ '/assets/images/settings-entry.png' | relative_url }})
 
 ## Survey reminder time
 
 You can adjust your Morning Survey and Evening Survey notification times in the notification time settings.
 
-![Screenshot: Notification Time settings](assets/images/notification-time-settings.png)
+![Screenshot: Notification Time settings]({{ '/assets/images/notification-time-settings.png' | relative_url }})
 
 Depending on your device model, notifications may arrive approximately 20 minutes later than the scheduled time.
 
@@ -34,7 +34,7 @@ Email: [study-support@mcl.iis.u-tokyo.ac.jp](mailto:study-support@mcl.iis.u-toky
 
 The **Support Resources** screen lists information and services in your region that you may find helpful.
 
-![Screenshot: Support Resources screen](assets/images/support-resources-screen.png)
+![Screenshot: Support Resources screen]({{ '/assets/images/support-resources-screen.png' | relative_url }})
 
 ## Manual data upload
 
@@ -42,7 +42,7 @@ Under normal conditions, WellNest automatically uploads sensor and survey data i
 
 If uploads fail because of network conditions, or if a study administrator asks you to re-upload your data, open the **Data Upload screen** and tap the upload button.
 
-![Screenshot: Data Upload screen](assets/images/data-upload-screen.png)
+![Screenshot: Data Upload screen]({{ '/assets/images/data-upload-screen.png' | relative_url }})
 
 ## Keeping the app running in the background
 
@@ -50,21 +50,21 @@ Throughout the study, WellNest must keep running in the background so it can col
 
 Please avoid closing WellNest from the recent apps screen.
 
-![Screenshot: Recent apps screen with do-not-close warning](assets/images/recent-apps-do-not-close.png)
+![Screenshot: Recent apps screen with do-not-close warning]({{ '/assets/images/recent-apps-do-not-close.png' | relative_url }})
 
 Some phones allow you to lock an app in the recent apps screen so it is less likely to be closed accidentally.
 
-![Screenshot: Lock WellNest in recent apps](assets/images/recent-apps-lock-wellnest.png)
+![Screenshot: Lock WellNest in recent apps]({{ '/assets/images/recent-apps-lock-wellnest.png' | relative_url }})
 
 If WellNest stops unexpectedly, you may receive an **App Close Warning** notification. Tap the notification to relaunch the app.
 
-![Screenshot: App closed notification](assets/images/app-closed-notification.png)
+![Screenshot: App closed notification]({{ '/assets/images/app-closed-notification.png' | relative_url }})
 
 Make sure the **App Close Warning** notification category is enabled.
 
-![Screenshot: App Close Warning notification category](assets/images/app-close-warning-category.png)
+![Screenshot: App Close Warning notification category]({{ '/assets/images/app-close-warning-category.png' | relative_url }})
 
-![Screenshot: App Close Warning notification setting](assets/images/app-close-warning-default.png)
+![Screenshot: App Close Warning notification setting]({{ '/assets/images/app-close-warning-default.png' | relative_url }})
 
 ## End of the study
 
@@ -74,4 +74,4 @@ After the team has reviewed and processed your data, they will contact you as so
 
 ## Next
 
-If something is not working as expected, see [Troubleshooting](troubleshooting.md).
+If something is not working as expected, see [Troubleshooting]({{ '/troubleshooting/' | relative_url }}).

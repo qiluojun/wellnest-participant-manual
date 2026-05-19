@@ -19,7 +19,7 @@ You will receive two Firebase App Distribution invitation emails:
 
 Open each email and follow the on-screen instructions.
 
-![Screenshot: Firebase App Distribution invitation email](assets/images/firebase-invitation-email.png)
+![Screenshot: Firebase App Distribution invitation email]({{ '/assets/images/firebase-invitation-email.png' | relative_url }})
 
 ## The two apps
 
@@ -28,9 +28,9 @@ Open each email and follow the on-screen instructions.
 | **WellNest** | The main study app. You will use it throughout the pilot period and the 12-week formal data collection period. | Keep installed and running during the study. |
 | **WellNest Health** | The companion app. It helps configure one data collection component during initial setup. | You may uninstall it only after permission setup is complete. |
 
-![Screenshot: WellNest logo](assets/images/wellnest-logo.png)
+![Screenshot: WellNest logo]({{ '/assets/images/wellnest-logo.png' | relative_url }})
 
-![Screenshot: WellNest Health logo](assets/images/wellnest-health-logo.png)
+![Screenshot: WellNest Health logo]({{ '/assets/images/wellnest-health-logo.png' | relative_url }})
 
 ## Step 1: Open the invitation emails
 
@@ -46,7 +46,7 @@ Before the download starts, your browser or Android system may ask you to allow 
 
 Follow the on-screen instructions to allow installation. This is a normal Android security step for apps distributed outside the Google Play Store.
 
-![Screenshot: Google Play Protect scan recommendation](assets/images/google-play-protect-scan.png)
+![Screenshot: Google Play Protect scan recommendation]({{ '/assets/images/google-play-protect-scan.png' | relative_url }})
 
 ## Step 3: Confirm that both apps are installed
 
@@ -63,5 +63,4 @@ Please email [study-support@mcl.iis.u-tokyo.ac.jp](mailto:study-support@mcl.iis.
 
 ## Next
 
-After both apps are installed, continue to [Grant permissions](permissions.md).
-
+After both apps are installed, continue to [Grant permissions]({{ '/permissions/' | relative_url }}).

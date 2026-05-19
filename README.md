@@ -36,3 +36,7 @@ bundle exec jekyll serve
 ```
 
 Then open `http://localhost:4000/wellnest-participant-manual/`.
+
+This uses the same `baseurl` as GitHub Pages, so image paths and internal links can be tested locally before pushing changes.
+
+Keep the server running while editing. Jekyll will rebuild the site automatically after most file changes.

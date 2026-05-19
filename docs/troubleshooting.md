@@ -17,7 +17,7 @@ The permission setup is not complete yet.
 3. Check which item is incomplete.
 4. Tap the incomplete item and follow the instructions again.
 
-See [Grant permissions](permissions.md) and [How to confirm permissions are complete](permissions.md#how-to-confirm-permissions-are-complete).
+See [Grant permissions]({{ '/permissions/' | relative_url }}) and [How to confirm permissions are complete]({{ '/permissions/#how-to-confirm-permissions-are-complete' | relative_url }}).
 
 ## I did not receive a survey notification.
 
@@ -27,7 +27,7 @@ Check that notification permissions are enabled for WellNest.
 2. Confirm that survey reminder notifications are enabled.
 3. If you use Do Not Disturb, allow survey reminders to bypass Do Not Disturb.
 
-See [Notification settings](permissions.md#notification-settings).
+See [Notification settings]({{ '/permissions/#notification-settings' | relative_url }}).
 
 ## The survey button is disabled.
 
@@ -36,7 +36,7 @@ The questionnaire is currently closed. Survey buttons are only active during the
 - Morning Survey: **6:00-10:00 am**
 - Evening Survey: **8:00 pm-12:00 am**
 
-See [Daily Surveys](surveys.md#daily-surveys).
+See [Daily Surveys]({{ '/surveys/#daily-surveys' | relative_url }}).
 
 ## I missed the Weekly Survey on Monday.
 
@@ -46,7 +46,7 @@ You may access it later from the **Help screen**.
 2. Tap **Weekly Survey**.
 3. Complete the survey if it is available.
 
-See [Weekly Survey](surveys.md#weekly-survey).
+See [Weekly Survey]({{ '/surveys/#weekly-survey' | relative_url }}).
 
 ## The app was closed.
 
@@ -54,7 +54,7 @@ Tap the App Close Warning notification to relaunch WellNest.
 
 After relaunching, avoid closing WellNest from the recent apps screen. WellNest must keep running in the background during the study.
 
-See [Keeping the app running in the background](settings.md#keeping-the-app-running-in-the-background).
+See [Keeping the app running in the background]({{ '/settings/#keeping-the-app-running-in-the-background' | relative_url }}).
 
 ## Upload failed.
 
@@ -64,7 +64,7 @@ Usually, data uploads automatically in the background. If upload fails, or if a 
 2. Tap the upload button.
 3. Keep the app open until the upload action starts.
 
-See [Manual data upload](settings.md#manual-data-upload).
+See [Manual data upload]({{ '/settings/#manual-data-upload' | relative_url }}).
 
 ## I am not sure whether setup is complete.
 
@@ -76,11 +76,10 @@ Setup is complete when:
 - The Pre-Study Survey was completed.
 - WellNest is running in the background.
 
-Use the [Quick Checklist](checklist.md) to confirm each item.
+Use the [Quick Checklist]({{ '/checklist/' | relative_url }}) to confirm each item.
 
 ## I need help.
 
 Email the research team at [study-support@mcl.iis.u-tokyo.ac.jp](mailto:study-support@mcl.iis.u-tokyo.ac.jp).
 
 You can also find the contact email on the **Help screen** in WellNest.
-

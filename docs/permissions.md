@@ -16,7 +16,7 @@ WellNest needs several Android permissions so the study app can collect the requ
 
 On the main screen, a red exclamation mark beside the Permissions icon means that setup is not finished.
 
-![Screenshot: Red exclamation mark beside the Permissions icon](assets/images/permissions-alert-main-screen.png)
+![Screenshot: Red exclamation mark beside the Permissions icon]({{ '/assets/images/permissions-alert-main-screen.png' | relative_url }})
 
 ## General workflow
 
@@ -26,11 +26,11 @@ On the main screen, a red exclamation mark beside the Permissions icon means tha
 4. Follow the app and Android system prompts.
 5. Continue until every required item is complete.
 
-![Screenshot: Permission configuration page](assets/images/permission-configuration-page.png)
+![Screenshot: Permission configuration page]({{ '/assets/images/permission-configuration-page.png' | relative_url }})
 
 The last item will automatically open **WellNest Health**. Follow the instructions shown in WellNest Health to finish that part of setup.
 
-![Screenshot: WellNest Health initial screen](assets/images/wellnest-health-initial-screen.png)
+![Screenshot: WellNest Health initial screen]({{ '/assets/images/wellnest-health-initial-screen.png' | relative_url }})
 
 ## Notification settings
 
@@ -43,11 +43,11 @@ You will usually receive two survey reminders each day:
 
 Allow notifications from the app when Android asks.
 
-![Screenshot: Notification permission prompt](assets/images/notification-permission-prompt.png)
+![Screenshot: Notification permission prompt]({{ '/assets/images/notification-permission-prompt.png' | relative_url }})
 
 If the app asks you to open notification settings, check that the WellNest notification categories are enabled.
 
-![Screenshot: Android notification categories for WellNest](assets/images/android-notification-categories.png)
+![Screenshot: Android notification categories for WellNest]({{ '/assets/images/android-notification-categories.png' | relative_url }})
 
 Please make sure these notification categories are enabled:
 
@@ -56,11 +56,11 @@ Please make sure these notification categories are enabled:
 - Survey Reminders (Scheduled)
 - Survey Reminders
 
-![Screenshot: Survey reminder notification categories](assets/images/survey-reminder-notification-categories.png)
+![Screenshot: Survey reminder notification categories]({{ '/assets/images/survey-reminder-notification-categories.png' | relative_url }})
 
 If you use Do Not Disturb or a similar mode, we recommend allowing survey reminders to bypass Do Not Disturb so you do not miss the survey windows.
 
-![Screenshot: Override Do Not Disturb setting](assets/images/override-do-not-disturb.png)
+![Screenshot: Override Do Not Disturb setting]({{ '/assets/images/override-do-not-disturb.png' | relative_url }})
 
 ## Past Health Data
 
@@ -68,7 +68,7 @@ For the **Past Health Data** item, the app may ask you to upload past health dat
 
 Follow the on-screen instructions and tap the upload or permission button shown in the companion app.
 
-![Screenshot: Past Health Data permission step](assets/images/past-health-data-permission.png)
+![Screenshot: Past Health Data permission step]({{ '/assets/images/past-health-data-permission.png' | relative_url }})
 
 When the companion app shows a success status, return to WellNest.
 
@@ -76,9 +76,9 @@ When the companion app shows a success status, return to WellNest.
 
 Permission setup is complete only when the red exclamation mark beside the Permissions icon has disappeared in WellNest.
 
-![Screenshot: Permission status not finished](assets/images/main-app-permission-status-not-finished.png)
+![Screenshot: Permission status not finished]({{ '/assets/images/main-app-permission-status-not-finished.png' | relative_url }})
 
-![Screenshot: Permission status finished](assets/images/main-app-permission-status-finished.png)
+![Screenshot: Permission status finished]({{ '/assets/images/main-app-permission-status-finished.png' | relative_url }})
 
 If the red exclamation mark is still visible:
 
@@ -97,5 +97,4 @@ Do not uninstall WellNest Health before that point. If you uninstall it too earl
 
 ## Next
 
-After permissions are complete, continue to [Surveys](surveys.md), especially [Pre-Study Survey](surveys.md#pre-study-survey).
-
+After permissions are complete, continue to [Surveys]({{ '/surveys/' | relative_url }}), especially [Pre-Study Survey]({{ '/surveys/#pre-study-survey' | relative_url }}).
