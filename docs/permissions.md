@@ -36,7 +36,7 @@ Allow notifications from the app when Android asks.
 
 If the app asks you to open notification settings, check that the WellNest notification categories are enabled.
 
-![Screenshot: Android notification categories for WellNest]({{ '/assets/images/notification-time-settings.png' | relative_url }})
+![Screenshot: Android notification categories for WellNest]({{ '/assets/images/notification-settings-open.png' | relative_url }})
 
 ![Screenshot: Android notification categories for WellNest]({{ '/assets/images/android-notification-categories.png' | relative_url }})
 

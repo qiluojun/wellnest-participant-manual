@@ -38,7 +38,7 @@ Open each email and follow the on-screen instructions.
 2. Follow the instructions in the email.
 3. Download and install the app.
 4. Open the Firebase invitation email for **WellNest Health**.
-5. Follow the instructions and install the companion app, but do not open it yet.
+5. Follow the instructions and install the companion app, **but do not open it yet**.
 
 ## Step 2: Allow installation and allow scanning if Android asks
 
