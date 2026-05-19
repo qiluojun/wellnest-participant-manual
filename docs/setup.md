@@ -38,13 +38,13 @@ Open each email and follow the on-screen instructions.
 2. Follow the instructions in the email.
 3. Download and install the app.
 4. Open the Firebase invitation email for **WellNest Health**.
-5. Follow the instructions and install the companion app.
+5. Follow the instructions and install the companion app, but do not open it yet.
 
-## Step 2: Allow installation if Android asks
+## Step 2: Allow installation and allow scanning if Android asks
 
-Before the download starts, your browser or Android system may ask you to allow app installation from this source.
+Before the download or installation starts, your browser or Android system may ask you to allow installation from this source or scan the app with Google Play Protect.
 
-Follow the on-screen instructions to allow installation. This is a normal Android security step for apps distributed outside the Google Play Store.
+Follow the on-screen instructions and allow both if prompted. These are normal Android security steps for apps distributed outside the Google Play Store.
 
 ![Screenshot: Google Play Protect scan recommendation]({{ '/assets/images/google-play-protect-scan.png' | relative_url }})
 

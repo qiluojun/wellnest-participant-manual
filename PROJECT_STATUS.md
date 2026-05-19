@@ -114,6 +114,37 @@ The extracted files were renamed from generic Word media names such as `image2.p
 16. Checked that local Markdown links and image references resolve.
 17. Fixed participant-facing image paths by using Jekyll `relative_url` with absolute site paths, so images work under the GitHub Pages project `baseurl`.
 18. Fixed internal page and section links by replacing `.md` links with pretty permalink URLs such as `/setup/` and `/surveys/#pre-study-survey`, also wrapped with `relative_url`.
+19. Debugged the published-site 404 problems reported in Quick Checklist and the landing page. The root cause was that `permalink: pretty` generates URLs such as `/setup/`, while the Markdown content still linked to `setup.md`.
+20. Debugged the missing-image problem. The root cause was that image paths such as `assets/images/example.png` were resolved relative to pretty permalink page paths such as `/setup/`, producing invalid URLs.
+21. Updated `README.md` to clarify that the site can be previewed locally with Jekyll before pushing changes to GitHub.
+22. Performed static checks confirming:
+   - No old `.md` internal links remain in the participant-facing Markdown pages.
+   - No bare `assets/images/...` Markdown image references remain.
+   - All image files referenced through `/assets/images/...` exist in `docs/assets/images/`.
+23. Updated `docs/setup.md` after website review:
+   - Added a note in Step 1 telling participants not to open **WellNest Health** immediately after installing it.
+   - Revised Step 2 to explicitly ask participants to allow both app installation and Google Play Protect scanning if Android asks.
+   - Simplified the Step 2 wording so the installation and scanning instructions are shorter and clearer.
+24. Updated `docs/settings.md` so the **App Close Warning** notification category reminder links back to the `Notification settings` section in `docs/permissions.md`.
+25. Performed a static check of the latest content edits with `rg` and `git diff`, confirming that the new permission link still uses the project-safe Jekyll `relative_url` pattern.
+
+## Latest debug summary
+
+The current content pages now use `relative_url` consistently for project-site-safe paths:
+
+```markdown
+{{ '/setup/' | relative_url }}
+{{ '/surveys/#pre-study-survey' | relative_url }}
+{{ '/assets/images/firebase-invitation-email.png' | relative_url }}
+```
+
+This should make links and images work both locally and on GitHub Pages under:
+
+```text
+/wellnest-participant-manual/
+```
+
+Local Jekyll build was not executed in the current Windows environment because `ruby`, `gem`, and `bundle` were not available in PATH. After Ruby and Bundler are installed, run the local preview commands below to visually confirm the fix.
 
 ## Manual confirmation still recommended
 
@@ -130,7 +161,7 @@ Before sharing the site publicly with participants, confirm:
 
 ## Suggested next steps
 
-1. Commit and push the latest workflow fix and this progress document.
+1. Commit and push the latest workflow fix, content edits, and this progress document.
 2. In GitHub repository settings, confirm:
    - Pages source is set to GitHub Actions.
    - Actions are enabled for the repository.

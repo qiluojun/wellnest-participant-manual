@@ -60,7 +60,7 @@ If WellNest stops unexpectedly, you may receive an **App Close Warning** notific
 
 ![Screenshot: App closed notification]({{ '/assets/images/app-closed-notification.png' | relative_url }})
 
-Make sure the **App Close Warning** notification category is enabled.
+Make sure the **App Close Warning** notification category is enabled in [Notification settings]({{ '/permissions/#notification-settings' | relative_url }}).
 
 ![Screenshot: App Close Warning notification category]({{ '/assets/images/app-close-warning-category.png' | relative_url }})
 
