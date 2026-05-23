@@ -2,45 +2,25 @@
 layout: default
 title: WellNest Participant User Manual
 nav_order: 1
+permalink: /
 ---
 
-# WellNest Participant User Manual
+# WellNest Participant User Manual / WellNest 参加者向けユーザーマニュアル
 
-Welcome, and thank you for taking part in the WellNest study.
+Please choose the manual that matches your language and phone.
 
-This guide is here to help you install the apps, finish setup, complete your surveys, and know what to do if something does not look right. It is written for study participants, not for technical users, so you can follow it one step at a time.
+ご利用の言語とスマートフォンに合うマニュアルを選んでください。
 
-The study is conducted by a research team at The Center for Spatial Information Science, The University of Tokyo. The goal is to explore whether Passive Mobile Sensing technology can help us better understand mothers' well-being during the postpartum period.
+## Available manuals / 利用可能なマニュアル
 
-The study includes:
+| Language | Android | iPhone |
+| --- | --- | --- |
+| English | [English Android Manual]({{ '/en/android/' | relative_url }}) | [English iPhone Manual]({{ '/en/ios/' | relative_url }}) |
+| Japanese | [日本語 Android マニュアル]({{ '/ja/android/' | relative_url }}) | [日本語 iPhone マニュアル]({{ '/ja/ios/' | relative_url }}) |
 
-- A pilot period of approximately one week, so you can become familiar with the app.
-- A 12-week formal data collection period that begins after the pilot.
-
-## Start here
-
-1. [Install the apps]({{ '/setup/' | relative_url }})  
-   Install both **WellNest** and **WellNest Health** from the Firebase App Distribution invitation emails.
-
-2. [Grant permissions]({{ '/permissions/' | relative_url }})  
-   Open WellNest and complete the Permission configuration page.
-
-3. [Complete the Pre-Study Survey]({{ '/surveys/#pre-study-survey' | relative_url }})  
-   After setup, tap **Join Study** and complete the Pre-Study Survey.
-
-## Short on time?
-
-Use the [Quick Checklist]({{ '/checklist/' | relative_url }}) to confirm the most important setup steps and study tasks.
-
-## Need help?
+## Need help? / お困りの場合
 
 Email the research team at [study-support@mcl.iis.u-tokyo.ac.jp](mailto:study-support@mcl.iis.u-tokyo.ac.jp).
 
-## Pages in this guide
-
-- [Install the apps]({{ '/setup/' | relative_url }})
-- [Grant permissions]({{ '/permissions/' | relative_url }})
-- [Surveys]({{ '/surveys/' | relative_url }})
-- [Settings and app use]({{ '/settings/' | relative_url }})
-- [Troubleshooting]({{ '/troubleshooting/' | relative_url }})
-- [Quick Checklist]({{ '/checklist/' | relative_url }})
+研究チームまでメールでお問い合わせください。  
+[study-support@mcl.iis.u-tokyo.ac.jp](mailto:study-support@mcl.iis.u-tokyo.ac.jp)

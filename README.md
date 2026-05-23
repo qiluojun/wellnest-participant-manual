@@ -5,8 +5,16 @@ This repository hosts the participant-facing WellNest user manual as a GitHub Pa
 ## Local structure
 
 - `docs/` contains the Jekyll site source.
+- `docs/en/android/` contains the English Android manual.
+- `docs/ja/android/` contains the Japanese Android manual.
+- `docs/en/ios/` and `docs/ja/ios/` are reserved for future iPhone manuals.
 - `docs/assets/images/` contains screenshots used by the manual.
 - `.github/workflows/pages.yml` builds and deploys the site to GitHub Pages.
+
+The site root is a version selector. The current manual URLs are:
+
+- `/wellnest-participant-manual/en/android/`
+- `/wellnest-participant-manual/ja/android/`
 
 ## GitHub Pages setup
 

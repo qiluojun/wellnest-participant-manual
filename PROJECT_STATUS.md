@@ -1,6 +1,6 @@
 # WellNest Participant Manual: Architecture and Progress
 
-Last updated: 2026-05-19
+Last updated: 2026-05-20
 
 ## Project purpose
 
@@ -23,12 +23,28 @@ wellnest-participant-manual/
     _config.yml
     Gemfile
     index.md
-    setup.md
-    permissions.md
-    surveys.md
-    settings.md
-    troubleshooting.md
-    checklist.md
+    en/
+      android/
+        index.md
+        setup.md
+        permissions.md
+        surveys.md
+        settings.md
+        troubleshooting.md
+        checklist.md
+      ios/
+        index.md
+    ja/
+      android/
+        index.md
+        setup.md
+        permissions.md
+        surveys.md
+        settings.md
+        troubleshooting.md
+        checklist.md
+      ios/
+        index.md
     assets/
       images/
 ```
@@ -65,13 +81,11 @@ bundle exec jekyll build --baseurl "/wellnest-participant-manual"
 
 ## Documentation structure
 
-- `docs/index.md`: Friendly landing page with study summary, Start here links, Quick Checklist link, and support email.
-- `docs/setup.md`: Firebase invitation flow, installing both WellNest and WellNest Health, Android install permissions, and installation failure guidance.
-- `docs/permissions.md`: Permission configuration workflow, notification settings, Past Health Data, completion confirmation, and when WellNest Health can be uninstalled.
-- `docs/surveys.md`: Pre-Study Survey, pilot phase, daily survey table, Morning Survey, Evening Survey, Weekly Survey, and app messages.
-- `docs/settings.md`: Region/language settings, survey reminder times, Help screen, Support Resources, manual upload, background running, and end-of-study note.
-- `docs/troubleshooting.md`: FAQ-style troubleshooting with links back to detailed instructions.
-- `docs/checklist.md`: Practical Quick Checklist with each item linked to the relevant detailed page or section.
+- `docs/index.md`: Version selector for language and phone platform.
+- `docs/en/android/`: Existing English Android participant manual.
+- `docs/ja/android/`: Japanese Android participant manual translated from the English Android version.
+- `docs/en/ios/` and `docs/ja/ios/`: Placeholder iPhone manual entry pages for future content.
+- Each Android manual includes setup, permissions, surveys, settings/app use, troubleshooting, and checklist pages.
 
 ## Image assets
 
@@ -127,24 +141,58 @@ The extracted files were renamed from generic Word media names such as `image2.p
    - Simplified the Step 2 wording so the installation and scanning instructions are shorter and clearer.
 24. Updated `docs/settings.md` so the **App Close Warning** notification category reminder links back to the `Notification settings` section in `docs/permissions.md`.
 25. Performed a static check of the latest content edits with `rg` and `git diff`, confirming that the new permission link still uses the project-safe Jekyll `relative_url` pattern.
+26. Restructured the site for language/platform versions:
+   - English Android moved to `docs/en/android/`.
+   - Japanese Android added at `docs/ja/android/`.
+   - English iPhone and Japanese iPhone placeholder entry pages added.
+   - Root `docs/index.md` changed into a manual selector.
+27. Translated the Android participant manual into Japanese while temporarily reusing the English Android screenshot assets.
+28. Added stable ASCII section anchors to Japanese pages where internal links target sections.
+29. Updated README and `_config.yml` for the multi-version manual structure.
+30. Performed static checks confirming:
+   - No old root-level `/setup/`, `/permissions/`, `/surveys/`, `/settings/`, `/troubleshooting/`, or `/checklist/` links remain.
+   - All `relative_url` page targets resolve to a page permalink.
+   - All referenced image files exist.
+31. Updated the Japanese Android manual image references to use Japanese screenshot assets under `docs/assets/image_jp/` wherever available.
+    - Mapped the Japanese evening survey notification banner to `Snipaste_2026-05-20_15-32-40.png`.
+    - Mapped the Japanese admin message screenshot to `Snipaste_2026-05-20_15-19-32.png`.
+    - Kept English fallback assets only where no corresponding Japanese asset exists yet.
+    - Re-ran a static check confirming all Japanese Android image references point to existing files.
+32. Checked the English and Japanese Android quick checklist links.
+    - Added explicit stable ASCII anchors to the English Android target sections used by checklist links.
+    - Confirmed the Japanese Android target sections already have matching stable anchors.
+    - Re-ran a static check confirming all checklist `relative_url` page targets and section anchors resolve.
+    - Attempted a local Jekyll build, but Bundler reported `jekyll` was missing and suggested running `bundle install`.
 
 ## Latest debug summary
 
-The current content pages now use `relative_url` consistently for project-site-safe paths:
+The site has been restructured into a language/platform manual selector.
+
+Current participant-facing entry points are:
 
 ```markdown
-{{ '/setup/' | relative_url }}
-{{ '/surveys/#pre-study-survey' | relative_url }}
-{{ '/assets/images/firebase-invitation-email.png' | relative_url }}
+{{ '/en/android/' | relative_url }}
+{{ '/ja/android/' | relative_url }}
+{{ '/en/ios/' | relative_url }}
+{{ '/ja/ios/' | relative_url }}
 ```
 
-This should make links and images work both locally and on GitHub Pages under:
+Android manual pages now use version-specific `relative_url` paths:
+
+```markdown
+{{ '/en/android/setup/' | relative_url }}
+{{ '/ja/android/surveys/#pre-study-survey' | relative_url }}
+{{ '/assets/images/firebase-invitation-email.png' | relative_url }}
+{{ '/assets/image_jp/daily-survey-card.png' | relative_url }}
+```
+
+This keeps links and images project-site-safe under:
 
 ```text
 /wellnest-participant-manual/
 ```
 
-Local Jekyll build was not executed in the current Windows environment because `ruby`, `gem`, and `bundle` were not available in PATH. After Ruby and Bundler are installed, run the local preview commands below to visually confirm the fix.
+Local build/testing was revisited after installing Ruby 3.4. If Bundler still appears to use `C:/Ruby40-x64`, open a fresh Ruby 3.4 terminal or adjust PATH so `ruby`, `gem`, and `bundle` resolve to the Ruby 3.4 installation before running `bundle install`.
 
 ## Manual confirmation still recommended
 
@@ -161,13 +209,19 @@ Before sharing the site publicly with participants, confirm:
 
 ## Suggested next steps
 
-1. Commit and push the latest workflow fix, content edits, and this progress document.
-2. In GitHub repository settings, confirm:
+1. Add or rename the remaining missing Japanese-specific assets if needed:
+   - `firebase-invitation-email.png`
+   - `google-play-protect-scan.png`
+   - `wellnest-health-initial-screen.png`
+   - `recent-apps-lock-wellnest.png`
+2. Add the English iPhone and Japanese iPhone manual content under `docs/en/ios/` and `docs/ja/ios/`.
+3. Commit and push the multi-version restructure, Japanese Android manual, and this progress document.
+4. In GitHub repository settings, confirm:
    - Pages source is set to GitHub Actions.
    - Actions are enabled for the repository.
-3. Re-run the GitHub Pages workflow.
-4. Review the published site on desktop and mobile.
-5. Invite the teacher or research collaborator to the repository for content review.
+5. Re-run the GitHub Pages workflow.
+6. Review the published site on desktop and mobile.
+7. Invite the teacher or research collaborator to the repository for content review.
 
 ## Local preview support
 
@@ -176,7 +230,7 @@ The site can be previewed locally without committing or pushing to GitHub, as lo
 ```bash
 cd docs
 bundle install
-bundle exec jekyll serve
+bundle exec jekyll serve --baseurl "/wellnest-participant-manual"
 ```
 
 Then open:

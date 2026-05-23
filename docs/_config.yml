@@ -1,5 +1,5 @@
 title: WellNest Participant User Manual
-description: Participant-facing user manual for the WellNest Android study app.
+description: Participant-facing user manual for the WellNest study app.
 theme: just-the-docs
 
 # For a GitHub Pages project site:
@@ -28,4 +28,3 @@ exclude:
   - Gemfile.lock
   - README.md
   - vendor/
-

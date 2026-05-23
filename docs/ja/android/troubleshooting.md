@@ -1,0 +1,94 @@
+---
+layout: default
+title: トラブルシューティング
+parent: 日本語 Android マニュアル
+nav_order: 6
+permalink: /ja/android/troubleshooting/
+---
+
+# トラブルシューティング
+
+設定中または研究期間中に何かがうまくいかない場合は、このページを確認してください。
+
+## Permissions ページに赤い感嘆符がまだ表示されています
+
+権限設定がまだ完了していません。
+
+1. WellNest を開きます。
+2. **権限設定ページ**に戻ります。
+3. 未完了の項目を確認します。
+4. 未完了の項目をタップし、もう一度案内に従ってください。
+
+[権限を許可する]({{ '/ja/android/permissions/' | relative_url }})と[権限設定が完了したか確認する方法]({{ '/ja/android/permissions/#how-to-confirm-permissions-are-complete' | relative_url }})をご覧ください。
+
+## 第 7 項目で WellNest Health がインストールされていないと表示されます
+
+権限設定ページの第 7 項目で、**WellNest Health** がインストールされていないと表示される場合は、先に補助アプリをインストールしてください。
+
+[アプリをインストールする]({{ '/ja/android/setup/' | relative_url }})をご覧いただき、**WellNest** と **WellNest Health** の両方がインストールされていることを確認してください。WellNest Health をインストールした後、権限設定ページに戻り、第 7 項目をもう一度試してください。
+
+## アンケート通知が届きません
+
+WellNest の通知が許可されているか確認してください。
+
+1. Android の WellNest 通知設定を開きます。
+2. アンケートリマインダー通知が有効になっていることを確認します。
+3. おやすみモードを使用している場合は、アンケートリマインダーがおやすみモード中でも通知されるように設定します。
+
+[通知設定]({{ '/ja/android/permissions/#notification-settings' | relative_url }})をご覧ください。
+
+## アンケートボタンが無効になっています
+
+そのアンケートは現在回答できません。アンケートボタンは、決められた回答時間内のみ有効になります。
+
+- Morning Survey: **午前 6:00-10:00**
+- Evening Survey: **午後 8:00-午前 0:00**
+
+[毎日のアンケート]({{ '/ja/android/surveys/#daily-surveys' | relative_url }})をご覧ください。
+
+## 月曜日に Weekly Survey に回答できませんでした
+
+後から **Help screen** からアクセスできる場合があります。
+
+1. **Help screen** を開きます。
+2. **Weekly Survey** をタップします。
+3. 回答可能な場合は、アンケートに回答してください。
+
+[週次アンケート]({{ '/ja/android/surveys/#weekly-survey' | relative_url }})をご覧ください。
+
+## アプリが閉じてしまいました
+
+App Close Warning 通知をタップして、WellNest を再起動してください。
+
+再起動後は、最近使ったアプリの画面から WellNest を閉じないようにしてください。研究期間中、WellNest はバックグラウンドで起動している必要があります。
+
+[アプリをバックグラウンドで起動状態に保つ]({{ '/ja/android/settings/#keeping-the-app-running-in-the-background' | relative_url }})をご覧ください。
+
+## アップロードに失敗しました
+
+通常、データはバックグラウンドで自動的にアップロードされます。アップロードに失敗した場合、または研究管理者から再アップロードを依頼された場合:
+
+1. **Data Upload screen** を開きます。
+2. アップロードボタンをタップします。
+3. アップロード処理が始まるまで、アプリを開いたままにしてください。
+
+[データの手動アップロード]({{ '/ja/android/settings/#manual-data-upload' | relative_url }})をご覧ください。
+
+## 設定が完了しているか分かりません
+
+以下が完了していれば、設定は完了しています。
+
+- 2 つのアプリがインストールされている。
+- すべての権限が許可されている。
+- Permissions ページの赤い感嘆符が消えている。
+- 事前アンケートに回答済みである。
+- WellNest がバックグラウンドで起動している。
+
+各項目を確認するには、[クイックチェックリスト]({{ '/ja/android/checklist/' | relative_url }})をご利用ください。
+
+## サポートが必要です {#i-need-help}
+
+研究チームまでメールでお問い合わせください。  
+[study-support@mcl.iis.u-tokyo.ac.jp](mailto:study-support@mcl.iis.u-tokyo.ac.jp)
+
+WellNest の **Help screen** でも連絡先メールアドレスを確認できます。
