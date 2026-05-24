@@ -40,6 +40,11 @@ If the app asks you to open notification settings, check that the WellNest notif
 
 ![Screenshot: Android notification categories for WellNest]({{ '/assets/images/notification-settings-open.png' | relative_url }})
 
+
+![Screenshot]({{ '/assets/images/other1.png' | relative_url }})
+
+![Screenshot]({{ '/assets/images/other2.png' | relative_url }})
+
 ![Screenshot: Android notification categories for WellNest]({{ '/assets/images/android-notification-categories.png' | relative_url }})
 
 Please make sure these notification categories are enabled:

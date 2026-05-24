@@ -56,7 +56,8 @@ Please avoid closing WellNest from the recent apps screen.
 
 Some phones allow you to lock an app in the recent apps screen so it is less likely to be closed accidentally.
 
-![Screenshot: Lock WellNest in recent apps]({{ '/assets/images/recent-apps-lock-wellnest.png' | relative_url }})
+![Screenshot: Lock WellNest in recent apps]({{ '/assets/images/exa1.png' | relative_url }})
+![Screenshot: Lock WellNest in recent apps]({{ '/assets/images/exa2.png' | relative_url }})
 
 If WellNest stops unexpectedly, you may receive an **App Close Warning** notification. Tap the notification to relaunch the app.
 

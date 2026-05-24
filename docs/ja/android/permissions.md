@@ -37,6 +37,9 @@ Android から通知の許可を求められたら、アプリからの通知を
 
 ![Screenshot: Android notification categories for WellNest]({{ '/assets/image_jp/notification-settings-open.png' | relative_url }})
 
+![Screenshot]({{ '/assets/image_jp/other1.png' | relative_url }})
+![Screenshot]({{ '/assets/image_jp/other2.png' | relative_url }})
+
 ![Screenshot: Android notification categories for WellNest]({{ '/assets/image_jp/android-notification-categories.png' | relative_url }})
 
 以下の通知カテゴリが有効になっていることを確認してください。

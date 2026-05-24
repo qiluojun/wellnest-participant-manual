@@ -1,6 +1,6 @@
 # WellNest Participant Manual: Architecture and Progress
 
-Last updated: 2026-05-20
+Last updated: 2026-05-23
 
 ## Project purpose
 
@@ -23,6 +23,9 @@ wellnest-participant-manual/
     _config.yml
     Gemfile
     index.md
+    _sass/
+      custom/
+        custom.scss
     en/
       android/
         index.md
@@ -86,6 +89,7 @@ bundle exec jekyll build --baseurl "/wellnest-participant-manual"
 - `docs/ja/android/`: Japanese Android participant manual translated from the English Android version.
 - `docs/en/ios/` and `docs/ja/ios/`: Placeholder iPhone manual entry pages for future content.
 - Each Android manual includes setup, permissions, surveys, settings/app use, troubleshooting, and checklist pages.
+- `docs/_sass/custom/custom.scss`: Small site-specific styling for participant guidance notes and more visible next-step callouts.
 
 ## Image assets
 
@@ -163,6 +167,29 @@ The extracted files were renamed from generic Word media names such as `image2.p
     - Confirmed the Japanese Android target sections already have matching stable anchors.
     - Re-ran a static check confirming all checklist `relative_url` page targets and section anchors resolve.
     - Attempted a local Jekyll build, but Bundler reported `jekyll` was missing and suggested running `bundle install`.
+33. Updated both English and Japanese Android manual entry pages to make navigation links clearer for participants.
+    - Added a note beside the first start link explaining that purple links can be tapped or clicked to open the corresponding section.
+    - Updated the note styling to use a purple color consistent with the visible link color.
+34. Added custom next-step styling for Android manual pages.
+    - Added `docs/_sass/custom/custom.scss`.
+    - Made bottom `Next` / `次へ` sections larger, bolder, and visually highlighted with a yellow callout area and strong link styling.
+    - Applied the styling to the English and Japanese Android setup, permissions, surveys, and settings pages.
+35. Added participant guidance to the English and Japanese Android permissions pages.
+    - Inserted an `Other permission items` / `その他の権限項目` section between notification settings and `Past Health Data`.
+    - Explained that permission items 3 through 6 should be completed by following on-screen instructions, usually by tapping **Allow** and granting the requested Android system permission.
+    - Added a smaller, lighter privacy note explaining that location data is recorded only as relative coordinates from an individual-specific base point, absolute latitude/longitude are not recorded, and the base point information remains only on the device.
+36. Updated the root manual selector page.
+    - Changed the title, manual-selection instruction, available-manuals heading, and support section to English/Japanese bilingual text.
+    - Kept the manual selector table structure intact.
+37. Updated the English and Japanese Android troubleshooting pages.
+    - Added a section for cases where the seventh permission item says **WellNest Health** is not installed.
+    - Directed participants to the install page and asked them to confirm both **WellNest** and **WellNest Health** are installed before retrying the seventh permission item.
+38. Performed static checks with `rg` confirming:
+    - The purple-link note appears in both Android manual entry pages.
+    - No old `blue link` / `青いリンク` wording remains.
+    - The new troubleshooting sections appear in both English and Japanese.
+    - The location privacy note and `.privacy-note` style are present.
+    - A local Jekyll build still cannot run until `bundle install` provides the missing `jekyll` executable.
 
 ## Latest debug summary
 
@@ -193,6 +220,15 @@ This keeps links and images project-site-safe under:
 ```
 
 Local build/testing was revisited after installing Ruby 3.4. If Bundler still appears to use `C:/Ruby40-x64`, open a fresh Ruby 3.4 terminal or adjust PATH so `ruby`, `gem`, and `bundle` resolve to the Ruby 3.4 installation before running `bundle install`.
+
+Most recent local build attempt still failed with:
+
+```text
+bundler: command not found: jekyll
+Install missing gem executables with `bundle install`
+```
+
+Run `bundle install` in `docs/` before the next local Jekyll preview.
 
 ## Manual confirmation still recommended
 
