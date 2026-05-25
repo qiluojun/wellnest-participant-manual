@@ -67,7 +67,8 @@ The Weekly Survey button appears on the main screen on Monday.
 
 ![Screenshot: Weekly Survey card]({{ '/assets/images/weekly-survey-card.png' | relative_url }})
 
-If you cannot complete it on Monday, you may access it later from the **Help screen** by tapping **Weekly Survey**.
+If you cannot complete the Weekly Survey on Monday, you may still be able to answer it later by opening the **Help screen** and tapping **Weekly Survey**.
+{: .survey-recovery-note }
 
 ![Screenshot: Weekly Survey button on Help screen]({{ '/assets/images/help-screen-weekly-survey.png' | relative_url }})
 

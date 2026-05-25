@@ -22,8 +22,11 @@ The study includes:
 ## Start here
 
 1. [Install the apps]({{ '/en/android/setup/' | relative_url }})  
-   Purple links like this can be tapped or clicked to open the corresponding section. The purple links below work the same way.
+   Links like this can be tapped or clicked to open the corresponding section. The purple links below work the same way.
    {: .clickable-note }
+
+   If the link opens the correct page but does not jump to the exact section, go back to the previous page and tap or click the same purple link again.
+   {: .link-jump-note }
 
    Install both **WellNest** and **WellNest Health** from the Firebase App Distribution invitation emails.
 

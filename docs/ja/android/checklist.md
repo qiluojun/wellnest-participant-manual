@@ -22,17 +22,17 @@ permalink: /ja/android/checklist/
 
 ## 毎日
 
-- [ ] Morning Survey を **午前 6:00-10:00** の間に回答した。アプリからリマインダーが届きます。[毎日のアンケート]({{ '/ja/android/surveys/#daily-surveys' | relative_url }})を参照してください。
-- [ ] Evening Survey を **午後 8:00-午前 0:00** の間に回答した。アプリからリマインダーが届きます。[毎日のアンケート]({{ '/ja/android/surveys/#daily-surveys' | relative_url }})を参照してください。
+- [ ] 朝のアンケートに **午前 6:00-10:00** の間に回答した。アプリからリマインダーが届きます。[毎日のアンケート]({{ '/ja/android/surveys/#daily-surveys' | relative_url }})を参照してください。
+- [ ] 夜のアンケートに **午後 8:00-午前 0:00** の間に回答した。アプリからリマインダーが届きます。[毎日のアンケート]({{ '/ja/android/surveys/#daily-surveys' | relative_url }})を参照してください。
 - [ ] WellNest が引き続きバックグラウンドで起動している。[アプリをバックグラウンドで起動状態に保つ]({{ '/ja/android/settings/#keeping-the-app-running-in-the-background' | relative_url }})を参照してください。
 
 ## 毎週月曜日
 
-- [ ] Weekly Survey に回答した。回答し忘れた場合は、**Help screen** -> **Weekly Survey** に進んでください。[週次アンケート]({{ '/ja/android/surveys/#weekly-survey' | relative_url }})を参照してください。
+- [ ] 週次アンケートに回答した。回答し忘れた場合は、**ヘルプ** 画面から **週次アンケート** に進んでください。[週次アンケート]({{ '/ja/android/surveys/#weekly-survey' | relative_url }})を参照してください。
 
 ## 何かおかしい場合
 
-- [ ] Permissions ページに赤い感嘆符が表示されている -> 未完了の項目を再確認してください。[権限を許可する]({{ '/ja/android/permissions/' | relative_url }})を参照してください。
+- [ ] 権限設定ページに赤い感嘆符が表示されている -> 未完了の項目を再確認してください。[権限を許可する]({{ '/ja/android/permissions/' | relative_url }})を参照してください。
 - [ ] アプリが閉じてしまった -> アプリを再起動してください。[アプリをバックグラウンドで起動状態に保つ]({{ '/ja/android/settings/#keeping-the-app-running-in-the-background' | relative_url }})を参照してください。
-- [ ] アップロードに失敗した -> **Data Upload screen** を開き、アップロードボタンをタップしてください。[データの手動アップロード]({{ '/ja/android/settings/#manual-data-upload' | relative_url }})を参照してください。
+- [ ] アップロードに失敗した -> **アップロード** 画面を開き、アップロードボタンをタップしてください。[データの手動アップロード]({{ '/ja/android/settings/#manual-data-upload' | relative_url }})を参照してください。
 - [ ] その他の場合 -> [study-support@mcl.iis.u-tokyo.ac.jp](mailto:study-support@mcl.iis.u-tokyo.ac.jp) までメールでお問い合わせください。[サポートが必要です]({{ '/ja/android/troubleshooting/#i-need-help' | relative_url }})を参照してください。
